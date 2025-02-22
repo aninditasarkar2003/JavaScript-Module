@@ -10,7 +10,7 @@
 const name = "Anindita Chaturbedi";
 name = "Anindita";
 console.log(student["name"]);
-*/
+
 
 //Arithmetic Opeartors uses
 
@@ -22,3 +22,10 @@ console.log("a * b =",a*b);
 console.log("a / b =",a/b);
 console.log("a % b =",a%b);
 console.log("a ** b =",a**b);
+
+
+let a =5, b=3;
+b= ++a;
+console.log("a =",a, "&b =",b);
+*/
+
