@@ -81,7 +81,7 @@ if (num%5 ===0){
 }else{
     console.log(num,"is not multiple of 5");
 }
-*/
+
 
 let score =prompt("The score is: ");
 if(score>=90 && score<=100){
@@ -98,3 +98,89 @@ else if(score>=0 && score<=49)
 {
     console.log("Grade F");
 }
+
+*/
+
+
+/*for (let count=1; count<=10000; count++){
+    console.log("Anindita made it");
+}
+
+console.log("Loop ends here!");*/
+
+// calc sum of 1 to 5
+
+/*let sum =0;
+let count;
+
+for(count=1; count<=5; count++){
+    sum += count;
+}
+console.log("Sum : ",sum);
+console.log("Sum got");
+console.log("last count:",count);
+
+*/
+
+
+
+/*let i=1;
+while(i<=7){
+    console.log("Start");
+    i++;
+}*/
+
+
+// for-of
+
+/*let str="Anindita";
+let len=0;
+
+for (let char of str){// iterators -> i
+    console.log("i:",char);
+    len++;
+}
+
+console.log("Length:",len);*/
+
+// for-in
+
+/*let student={
+    name:"Anindita",
+    age:21,
+    cgpa:8.8,
+    isTrue: "pass"
+};
+
+console.log("Student details:",student);
+for(let i in student){
+    console.log("i:",i);
+    console.log("student[i]:",student[i]);
+}*/
+
+// even num found from 1 to 100
+//p -1
+
+/*let i;
+for( i=0; i<=100;i++){
+    if(i%2==0){
+        console.log("Even num found at=",i)
+    }
+    console.log("Odd num found at=",i)
+}
+console.log("Total number=",i);*/
+
+//p-2
+
+// It's brain jamming game must recode it
+
+let gamenum =98;
+
+let usernum = prompt("Guess the game number: ");
+console.log("User number:",usernum);
+
+while(usernum !=gamenum){
+    usernum = prompt("Guess again");
+}
+
+console.log("Congratulations on guessing right number");
