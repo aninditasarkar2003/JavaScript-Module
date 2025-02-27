@@ -53,4 +53,19 @@ function greet(name) {
 }
 console.log(greet("Alice"));
 
+# Control Flow
+
+Conditional statements and loops help control execution flow.
+if (age > 18) {
+    console.log("You are an adult.");
+} else {
+    console.log("You are a minor.");
+}
+
+loop examples,
+
+for (let i = 0; i < 5; i++) {
+    console.log("Iteration " + i);
+}
+
 
