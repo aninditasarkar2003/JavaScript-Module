@@ -174,7 +174,7 @@ console.log("Total number=",i);*/
 
 // It's brain jamming game must recode it
 
-let gamenum =98;
+/*let gamenum =98;
 
 let usernum = prompt("Guess the game number: ");
 console.log("User number:",usernum);
@@ -184,3 +184,68 @@ while(usernum !=gamenum){
 }
 
 console.log("Congratulations on guessing right number");
+*/
+
+/*
+let str = "Anindita";
+console.log("str:",str);
+console.log(str[3]);
+
+// Template literals
+let sentence = `Special type string`
+console.log("sentence:",sentence);
+console.log(typeof(sentence));
+
+let obj = {
+    item : "pencil",
+    price : 12
+}
+
+let output = `Item name is ${obj.item} and price is ${obj.price} rupees`
+console.log(output);
+console.log("Item name is ",obj.item,"and price is ",obj.price,"rupees"); 
+// expression can be calculated
+console.log(`the string is ${1+2+5}`);  
+
+console.log("Ana \t disuza")*/
+
+// String methods
+
+// method is like a block of code
+
+/*let str = "Anindita";
+console.log(str.toUpperCase());
+
+// strings are immutable-> original sentence will not change but the new sentence will be created that can be changed
+
+let str1 = "          Apna Duniya  aise  hi";
+console.log(str1.trim());
+
+// in trim  method only first and last space will be removed  but middle space will not be removed between the words
+
+*/
+
+/*let str = "Apna College"; 
+let str1 = "Meri JaanJaan";
+console.log(str.slice(0,4));// ending value will be non- inclusive
+console.log(str.slice(0));
+
+let res = str.concat(str1);
+console.log(res);
+console.log(str1.replaceAll("Jaan","Tera"));
+
+console.log(str1.charAt(1)) // index value or char search
+
+
+let str = 'I love js'
+str = str.replace('I','JJ')
+console.log(str) 
+*/
+
+// Excercise
+
+let name = prompt("Enter your full name: ");
+console.log(name);
+let out = name.length;
+console.log(out);
+console.log(`Username is :@${name}${out}`);
