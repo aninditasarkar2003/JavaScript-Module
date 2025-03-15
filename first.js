@@ -203,6 +203,8 @@ let obj = {
 
 let output = `Item name is ${obj.item} and price is ${obj.price} rupees`
 console.log(output);
+
+
 console.log("Item name is ",obj.item,"and price is ",obj.price,"rupees"); 
 // expression can be calculated
 console.log(`the string is ${1+2+5}`);  
@@ -244,8 +246,70 @@ console.log(str)
 
 // Excercise
 
-let name = prompt("Enter your full name: ");
-console.log(name);
-let out = name.length;
-console.log(out);
-console.log(`Username is :@${name}${out}`);
+
+// revision
+
+/* let g_name = prompt("Enter the game name: ");
+console.log(g_name)
+console.log(`${g_name} is the game for children`)*/
+
+
+// Arrays
+
+/*let details_stud = {
+    stud1_name : "Anindita",
+    stud1_roll : 3,
+    stud1_Address : "Kolkata"
+};
+
+console.log(details_stud);
+console.log(details_stud.stud1_name);
+console.log(details_stud["stud1_name"]);
+
+*/
+
+/*let marks = [10,20,30];
+console.log(marks)
+console.log(`Length is ${marks.length}`)// length is a property not a method
+*/
+
+
+/*let list =[1, 2, 3,4,5];
+console.log(list.length);
+for( let idx=0; idx< list.length; idx++){
+    console.log(list[idx]);
+}
+
+
+
+// for of
+
+for(let ele of list){
+    console.log(ele);
+}*/
+
+
+/*
+let marks = [85,97,44,37,76,60];
+// average of marks
+let total =0;
+for (let num= 0; num<marks.length; num++){
+total += marks[num]; // 399 /2 = 199.5
+}
+
+let avg = total/marks.length;
+console.log(avg);
+
+
+*/
+
+let price = [250,645,300,900,50];
+
+for (let item= 0; item<price.length; item++){
+    console.log(price[item]);
+    let discount = price[item]*0.1;
+    price[item] -= discount;
+}
+
+console.log(price);  
+
