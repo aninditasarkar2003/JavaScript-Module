@@ -302,7 +302,7 @@ console.log(avg);
 
 
 */
-
+/*
 let price = [250,645,300,900,50];
 
 for (let item= 0; item<price.length; item++){
@@ -312,4 +312,35 @@ for (let item= 0; item<price.length; item++){
 }
 
 console.log(price);  
+
+*/
+
+
+// Array methods
+
+let drinks = ["beer","coffee","whisky","wine","vodka"];
+console.log(drinks.toString());
+drinks.push("rum");
+console.log(drinks)
+
+let cafe = ["Cafe CPX", "The Coffee shop", "Starbucks"];
+
+let combine = drinks.concat(cafe);
+console.log(combine);
+
+cafe.unshift("Cafe Coffee Day");
+console.log(cafe);
+
+let cancel = cafe.shift();
+console.log(cancel);
+
+
+console.log(drinks.slice(1,3));
+
+
+let variable = [1,2,3,4,5,6,7];
+console.log(variable.splice(2,0,101));
+
+// when i declare the element as a starting idx then deleted 0 element and 
+// nextly i put 101 at 1st idx but surprisingly 101 placed in 1st idx and sitted between 2 and 3
 
