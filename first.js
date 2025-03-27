@@ -318,6 +318,7 @@ console.log(price);
 
 // Array methods
 
+/*
 let drinks = ["beer","coffee","whisky","wine","vodka"];
 console.log(drinks.toString());
 drinks.push("rum");
@@ -343,4 +344,26 @@ console.log(variable.splice(2,0,101));
 
 // when i declare the element as a starting idx then deleted 0 element and 
 // nextly i put 101 at 1st idx but surprisingly 101 placed in 1st idx and sitted between 2 and 3
+
+let no = [1,2,3,4,5];
+//no.splice(2,0,100,101);
+
+// it's for deleting the elements
+//no.splice(2,2);
+
+
+// Replace the element
+no.splice(2,1,100,101);
+console.log(no);
+*/
+
+
+
+/*
+let new_Companies = ["TCS","Infosys","Wipro","HCL","Tech Mahindra"];
+new_Companies.splice(2,1,"Accenture","Cognizant");
+console.log(new_Companies);
+*/
+
+// Revision
 
