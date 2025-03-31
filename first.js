@@ -397,9 +397,4 @@ const ArrowcountVowels = (str) => {
 }
     */
 
-let arr = [1,2,10];
 
-let multi = arr.reduce((prev, cur ) => 
-    prev * cur
-);
-console.log(multi);
