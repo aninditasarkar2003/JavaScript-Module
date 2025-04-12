@@ -397,4 +397,10 @@ const ArrowcountVowels = (str) => {
 }
     */
 
+let div = document.querySelector("div");
+console.log(div);
+
+let find_attribute = div.getAttribute("id");
+console.log(find_attribute);
+
 
