@@ -397,10 +397,28 @@ const ArrowcountVowels = (str) => {
 }
     */
 
-let div = document.querySelector("div");
-console.log(div);
+// Important concepts
 
-let find_attribute = div.getAttribute("id");
-console.log(find_attribute);
+//Q2
 
+let mode = document.querySelector("#btn");
+let body = document.querySelector("body");
 
+let currentMode = "light";
+
+mode.addEventListener("click", () => {
+    if(currentMode === "light"){ // removed the extra space
+        currentMode = "dark";
+        //document.body.style.backgroundColor = "black";
+        body.classList.add("dark");
+        body.classList.remove("light");
+    }
+    else{
+        currentMode = "light";
+        
+        body.classList.add("light");
+        body.classList.remove("dark");
+    }
+
+    console.log(currentMode);
+});

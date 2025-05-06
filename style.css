@@ -1,0 +1,22 @@
+/*.p1{
+    background-color: blueviolet;
+    color: white;
+}
+
+.p2{
+    background-color: lightpink;
+    color: black;
+    border: 1px solid black;
+}
+    */
+
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.light{
+    background-color: white;
+    color: black;
+}   
+
