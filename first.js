@@ -401,7 +401,7 @@ const ArrowcountVowels = (str) => {
 
 //Q2
 
-let mode = document.querySelector("#btn");
+/* let mode = document.querySelector("#btn");
 let body = document.querySelector("body");
 
 let currentMode = "light";
@@ -422,3 +422,72 @@ mode.addEventListener("click", () => {
 
     console.log(currentMode);
 });
+ */
+
+
+/* const student = {
+    fullName : "Ana",
+    job : "Software Engineer",
+    age : 21,
+    printAge : function(){
+        console.log(`${this.fullName} is ${this.age}`);
+
+    }
+} */
+
+
+   /*  const employee ={
+        calcTax(){
+            console.log("Calculating tax...");
+        },
+    };
+
+    const KaranAhuja ={
+        salary : 60000,
+        calcTax(){
+        console.log("Tax rate for you is 20%");
+        },
+    };
+
+    const kriti = {
+        salary : 80000,
+        
+    };
+
+    kriti.__proto__ = employee; */
+
+    // objects and classes 
+
+     /* class ToyotaCar{
+        constructor(millage,brandName){
+            this.millage = millage;
+            this.brandName = brandName;
+        }
+        start(){
+            console.log("Car started");
+         }  
+        
+        stop(){
+            console.log("Car stopped");
+        }
+
+        setBrand(brand){
+            this.brandName = brand;
+        }
+    }
+ let fortuner = new ToyotaCar(24,"Fortuner"); */
+ 
+ 
+class Student{
+    constructor(name,age,job){
+    this.name = name;
+    this.age = age;     
+    this.job = job;
+    }
+
+    intro(){
+   console.log(`Hello, myself ${this.name} `)
+    }
+}
+
+const s1 = new Student("Anindita",21,"Software Engineer");
