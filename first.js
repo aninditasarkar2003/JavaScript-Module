@@ -478,7 +478,7 @@ mode.addEventListener("click", () => {
  let fortuner = new ToyotaCar(24,"Fortuner"); */
  
  
-class Student{
+/* class Student{
     constructor(name,age,job){
     this.name = name;
     this.age = age;     
@@ -490,4 +490,19 @@ class Student{
     }
 }
 
-const s1 = new Student("Anindita",21,"Software Engineer");
+const s1 = new Student("Anindita",21,"Software Engineer"); */
+
+
+class employee{
+    constructor(name,role){
+        this.name = name;
+        this.role = role;
+    }
+
+    work(){
+        console.log(`${this.name} is working as ${this.role}`);
+
+    }
+}
+
+const e1 = new employee("Ana", "Software Engineer");
