@@ -492,17 +492,128 @@ mode.addEventListener("click", () => {
 
 const s1 = new Student("Anindita",21,"Software Engineer"); */
 
-
-class employee{
-    constructor(name,role){
+/* 
+class person{
+    constructor(name){
+        this.species = "Homo sapiens";
         this.name = name;
-        this.role = role;
+        console.log("Enter parent constructor");
     }
+    eat(){
+        console.log("Eating...");
+    }
+    
+}
 
+class Engineer extends person{
+    constructor(name){
+        console.log("Enter child constructor");
+        super(name); // to invoke parent class constructor
+        
+        console.log("Exit child constructor");
+    }
     work(){
-        console.log(`${this.name} is working as ${this.role}`);
-
+        super.eat();
+        console.log("Working on something new                                                                                                           ");
     }
 }
 
-const e1 = new employee("Ana", "Software Engineer");
+let anindita = new Engineer("Ana"); */
+/* 
+let data = "secret info";
+class user {
+   constructor(name,email) {//properties
+      this.name = name;
+      this.email= email;
+}
+
+    viewData(){
+        console.log("data = ",data);
+    }
+}
+
+class student extends user{
+    marks(){
+        console.log("calculating marks..")
+    }
+}
+
+class teacher extends user{
+    constructor(name, sub){
+        super(name);
+        this.sub =sub;
+    }
+    teach(){
+        console.log("proficient in sst");
+    }
+}
+
+let a1 = new teacher("Anindita","SST"); */
+
+/* function sum(a,b){
+    console.log(a+b)
+}
+
+function calc(a,b,sumcallback){
+    sumcallback(a,b);
+}
+
+calc(4,8,sum);
+ */
+
+
+/* const greet = (name,callback) =>{
+    console.log("my name is "+ name);
+    callback();
+}
+
+const bye = () =>{
+    console.log("Bye");
+}
+
+console.log(greet("Siya",bye)); */
+
+
+// suppose we had created a database and we are trying to fetch data
+
+//Promise
+let  promise = new Promise ((resolve, reject) =>{
+    console.log("I kept promises")
+    resolve("Success");
+});
+
+function getData(dataId, getnextData){
+    return new Promise ((resolve, reject) =>{
+        setTimeout(() => {
+        console.log("data",dataId);
+        resolve("Success");// after returning the value it will resolve
+        if(getnextData){
+            getnextData();
+        }
+        
+    }, 3000);
+    })
+}
+
+
+
+/* function getData (dataId, getnextData){
+    setTimeout(() => {
+        console.log("data",dataId);
+        if(getnextData){
+            getnextData();
+        }
+        
+    }, 3000);
+}
+
+
+getData(1, () =>{
+    console.log("Getting data 2...")
+    getData(2, () => {
+        console.log("Getting data 3...")
+        getData(3);
+    });
+});
+ */
+
